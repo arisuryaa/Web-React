@@ -1,0 +1,13 @@
+.TextStroke {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  z-index: 3;
+}
+h1 {
+  transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.scaleX {
+  transform: scaleX(-1);
+}
